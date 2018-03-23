@@ -1,0 +1,43 @@
+# C-
+
+#include <stdio.h>
+float cal;
+
+
+
+main()
+{
+	printf("Ingrese una califacion a evaluar: ");
+	scanf("%f",&cal);
+	
+	
+	if (cal>=6 & cal<=7)
+	{
+		printf("Con %f usted esta aprobado con desempeño regular",cal);
+		
+	}
+		if (cal>7 & cal<=8)
+	{
+		printf("Con %f usted esta aprobado con buen desempeño",cal);
+		
+	}
+ 
+		if (cal>8 & cal<=10)
+	{
+		printf("Con %f usted esta aprobado con excelente desempeño",cal);
+		
+	}
+	
+			if (cal>=5 & cal<6)
+	{
+		printf("Con %f usted esta reprobado y tinene derecho a examen extraordinario",cal);
+		
+	}
+	
+			if (cal<5)
+	{
+		printf("Con %f usted esta reprobado y tiene que recursar la materia",cal);
+		
+	}
+	return 0;
+}
